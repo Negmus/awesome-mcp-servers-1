@@ -2,6 +2,10 @@
 
 Servers integrating with CRM platforms, marketing analytics, customer data platforms, or advertising platforms.
 
+- [Intercom](https://developers.intercom.com/docs/guides/mcp): Official hosted server by Intercom: search and read conversations, contacts and companies. Streamable HTTP at `https://mcp.intercom.com/mcp` with Intercom OAuth.
+
+- [HubSpot](https://developers.hubspot.com/ai-tools/mcp): Official hosted server by HubSpot: search and read CRM contacts, companies, deals, tickets and engagements. Streamable HTTP at `https://mcp.hubspot.com/` with HubSpot OAuth.
+
 - [Nitrosend](https://github.com/nitrosend/mcp): Manage branded email and SMS campaigns, contacts, automation flows, and transactional messages through Nitrosend. Connect directly to the hosted Streamable HTTP MCP at `https://api.nitrosend.com/mcp` with OAuth; an optional MIT-licensed stdio bridge uses a Nitrosend API key for clients without HTTP transport. [MCP setup](https://docs.nitrosend.com/mcp).
 
 - [New Term Radar (io.github.zhuyansen/new-term-radar)](https://github.com/zhuyansen/new-term-radar): Catch the names of new AI models, products and repos on X, Hugging Face, GitHub and sitemaps before keyword tools list them, then get a keyword table for any names you give it: the generic search terms behind each name, sized with Google Ads volume and Google Trends, checked for room on Google's first page and given a decision (prioritize, watch or skip). Three tools: `recent_leads` (free), `keyword_table` and `run_radar` (paid lookups through an AIsa API key). Local stdio: `uvx --with mcp new-term-radar mcp`. License: MIT.
